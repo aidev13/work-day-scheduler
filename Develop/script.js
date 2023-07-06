@@ -8,7 +8,7 @@ $(document).ready(function () {
   })
   localStorageReader()
   timeColor()
-  date()
+  today()
 
 });
 
@@ -45,10 +45,12 @@ function timeColor() {
       $(selectString).addClass(`future`)
     }
 
-  }}
-
-  // current time of day
-function date(event) {
-  var todayIs = dayjs().format('dddd MMM D, YYYY')
-  console.log(todayIs)
+  }
 }
+
+// current day at top of page
+function today() {
+  var todayIs = dayjs().format('dddd MMM D, YYYY')
+  $('#currentDay').text(todayIs)
+}
+ // LOL YES!
