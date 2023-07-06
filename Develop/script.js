@@ -8,8 +8,11 @@ $(document).ready(function () {
   })
   localStorageReader()
   timeColor()
+  date()
 
 });
+
+
 
 // grabs local storage by looping through items in local storage
 function localStorageReader() {
@@ -31,7 +34,6 @@ function timeColor() {
   var startingHour = timeBlocks.attr('id').split(`-`)[1]
   var hourNumber = parseInt(startingHour)
   var timeOfDay = dayjs().hour()
-
   for (var i = 0; i < 9; i++) {
     var schedulerHour = hourNumber + i
     var selectString = `#hour-${schedulerHour.toString()}`
@@ -44,3 +46,9 @@ function timeColor() {
     }
 
   }}
+
+  // current time of day
+function date(event) {
+  var todayIs = dayjs().format('dddd MMM D, YYYY')
+  console.log(todayIs)
+}
