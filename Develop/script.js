@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  // sets and saves each item per line saved upon
+  // sets and saves each item to localStorage per line saved upon
   $('.saveBtn').on('click', function () {
     var textVal = $(this).siblings('.description').val()
     var hourId = $(this).parent().attr('id')
@@ -10,7 +10,7 @@ $(document).ready(function () {
   timeColor()
   today()
 
-});
+
 
 
 
@@ -51,6 +51,14 @@ function timeColor() {
 // current day at top of page
 function today() {
   var todayIs = dayjs().format('dddd MMM D, YYYY')
-  $('#currentDay').text(todayIs)
+  $('#currentDay').text("Current Date: " + todayIs)
 }
  // LOL YES!
+
+ for(var i = 0; i < 0; i++) {
+  
+ }
+
+
+
+});
