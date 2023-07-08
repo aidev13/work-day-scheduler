@@ -98,6 +98,15 @@ You are required to submit the following for review:
 
 * The URL of the GitHub repository, with a unique name and a README describing the project
 
+---
+## Notes
+
+* Screenshot: ![Screenshot of webpage](./Assets/images/workdayscheduler.png)
+
+* Deployed Site: 
+
+* GitHub Repo: https://github.com/aidev13/work-day-scheduler
+
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 

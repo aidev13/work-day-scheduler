@@ -55,10 +55,6 @@ function today() {
 }
  // LOL YES!
 
- for(var i = 0; i < 0; i++) {
-  
- }
-
 
 
 });
