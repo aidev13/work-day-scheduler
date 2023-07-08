@@ -103,7 +103,7 @@ You are required to submit the following for review:
 
 * Screenshot: ![Screenshot of webpage](./Assets/images/workdayscheduler.png)
 
-* Deployed Site: 
+* Deployed Site: https://aidev13.github.io/work-day-scheduler/
 
 * GitHub Repo: https://github.com/aidev13/work-day-scheduler
 
